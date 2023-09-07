@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+h1 {
+  background-color:lightskyblue;
+  text-align: center;
+  color: #fff;
+  font-family: '휴먼매직체','바탕',serif;
+  font-size: 38px;
+}
+
+h2 {
+  background-color: lightskyblue;
+  text-align: right;
+  color: #fff;
+}
+.sec0 {
+  text-align: center;
+  background-color: lightgray;
+  color: red;
+  font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+}
+.cl0 {
+  font-size: 22px;
+  font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+  text-decoration: underline;
+  color: orangered;
+}
+.cl1 {
+  color: black; font-weight:500;
+  font-size: 17px;
+  font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+}
+
+.res {
+  color: #fff;
+  background-color: rgb(1, 22, 31);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sec1 {
+  background-color: antiquewhite;
+  font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+  font-size: 18px;
+}
+.inf {
+text-align: center;
+font-size: 28px;
+color: rgb(233, 23, 68);
+font-weight: bold;
+text-decoration: underline;
+}
+.sp {
+  background-color: orange;
+}
+.re {
+  color: red;
+}
