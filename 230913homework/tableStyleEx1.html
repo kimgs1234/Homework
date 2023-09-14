@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>tableStyleEx1</title>
+  <style>
+    table {
+      border: 3px solid lightblue;
+      border-top: none;
+      border-spacing: 0;
+      border-collapse: collapse;
+      border-radius: 2px 2px 0 0;
+      margin: 20px auto ;
+      
+    }
+    caption {
+      background-color: orange;
+      text-align: center;
+      color: #fff;
+      border-radius: 10px 10px 0 0;
+      border: 3px solid lightblue;
+      border-bottom: none;
+    }
+    
+    table th {
+      border: 1px solid #000;
+      background-color: cornflowerblue;
+      padding:5px 15px; 
+    }
+    table td {
+      border: 1px solid #000;
+      width: 120px; height: 30px;
+      text-align: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>table style 연습1</h1>
+  <table>
+    <tbody>
+      <tr>
+        <caption>시간표</caption>
+        
+      </tr>
+      <tr>
+        <th>구분</th>
+        <th>월요일</th>
+        <th>화요일</th>
+        <th>수요일</th>
+        <th>목요일</th>
+        <th>금요일</th>
+      </tr>
+      <tr>
+        <th>1교시</th>
+        <td rowspan="2">기초드로잉</td>
+        <td rowspan="2">색채학</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>2교시</th>
+        
+        
+        <td rowspan="3">html</td>
+        <td></td>
+        <td rowspan="2">포트폴리오제작</td>
+      </tr>
+      <tr>
+        <th>3교시</th>
+        <td></td>
+        <td></td>
+        
+        <td></td>
+        
+      </tr>
+      <tr>
+        <th>4교시</th>
+        <td rowspan="2">포토그래픽</td>
+        <td></td>
+        
+        <td rowspan="2">구성요소제작</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>5교시</th>
+        
+        <td></td>
+        <td></td>
+        
+        <td></td>
+      </tr>
+    </tbody>    
+  </table>
+</body>
+</html>

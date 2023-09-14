@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>tableStyleEx3</title>
+  <style>
+    table {
+      border: 1px solid #000 ;
+      border-spacing: 0;
+      border-collapse: collapse;
+      empty-cells: hide;
+      margin: 0 auto;
+    }
+    table td {
+      border: 1px solid #000 ;
+      empty-cells: hide;
+      background-color: chartreuse;
+      padding: 5px 10px;
+    }
+    table .ujok {
+      background-color: orange;
+    }
+    table .tt{
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>table style 연습3</h1>
+  <table>
+    <tbody>
+      <caption>소</caption>
+      <tr>
+        <td>소머리</td>
+        <td>목심</td>
+        <td>등심
+          (살치살,꽃등심)
+        </td>
+        <td>채끝살</td>
+        <td>우둔
+          (홍두깨살)
+        </td>
+      </tr>
+      <tr>
+        <td class="tt" rowspan="4"></td>
+        <td rowspan="2">앞다리
+          (부채살)
+        </td>
+        <td>갈비
+          (안창살,제비추리)
+        </td>
+        <td>안심</td>
+        <td rowspan="2">설도
+          (도가니살)
+        </td>
+      </tr>
+      <tr>
+        
+       
+        <td colspan="2">양지
+          (차돌박이,우삼겹)
+        </td>
+        
+      </tr>
+      <tr>
+       
+        <td>사태</td>
+        <td class="tt" colspan="2" rowspan="2"></td>
+        
+        <td>사태
+          (아롱사태)
+        </td>
+      </tr>
+      <tr>
+       
+        <td class="ujok" >우족</td>
+        
+        
+        <td class="ujok">우족</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
