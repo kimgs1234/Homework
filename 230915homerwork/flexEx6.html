@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexEx6</title>
+
+<style>
+  body {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .logo {
+    width: 4%; height: 50px; background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+  background-color: burlywood;
+  width: 92%;
+  display: flex;
+  align-items: center;
+  }
+  #search {
+    margin-left: 15px;
+  }
+  .menu {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+  }
+</style>
+</head>
+<body>
+  <div class="logo">로고</div>
+  <div class="box">
+  <input type="text" id="search"><button type="submit">검색</button>
+  </div>
+  <div class="menu">메뉴</div>
+</body>
+</html>
