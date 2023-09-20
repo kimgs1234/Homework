@@ -3,26 +3,32 @@
 
 body {
   margin: 0;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/denim.png);
+}
+.content {
+  width: 936px; height:800px;
+  margin: 30px auto;
+  border: 5px pink solid;
 }
 header h1 {
   margin: 0;
   padding: 0;
-  padding-top: 15px;
+  padding-top: 25px;
   font-family: 'Lato', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 }
 
 header .circle {
   background-color: red;
   color: white;
   font-family: 'Norican', cursive;
-  font-size: 2.4rem;
-  width: 85px;height: 85px;
+  font-size: 2.1rem;
+  width: 80px;height: 80px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px 22px;
+  margin: 25px 20px;
 }
 header .cooking {
   margin: 0;
@@ -31,7 +37,7 @@ header .cooking {
 }
 
 header {
-  height: 120px;
+  height: 130px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -46,17 +52,18 @@ menu {
   background-color: gold;
   display: flex;
   justify-content: flex-start;
-  font-size:1.4rem ;
+  font-size:1.2rem ;
   font-family: '나눔고딕','맑은 고딕',sans-serif;
-  padding: 5px;
+  padding: 10px;
   padding-left: 0;
+  font-weight: bold;
 }
 menu li {
-  width: 10%;
+  width: 9.2%;
   text-align: center;
 }
 menu .kt {
-  margin-left: 15px;
+  margin-left: 12px;
 }
 menu li a {
   text-decoration: none;
@@ -69,39 +76,41 @@ h3 {
 }
 section figure {
   border: 1px red solid;
-  width: 438px;
-  margin: 30px;
+  width: 278px;
+  height:222px ;
+  margin: 30px 30px 0;
+  
   margin-right: 0;
   background-color: white;
 }
 section img {
-  width: 430px;
-  height: 280px;
-  margin: 4px;
+  width: 270px;
+  height: 180px;
+  margin:4px;
 }
 section .wrapper {
-  margin: 10px 0 0 30px;
+  margin: 13px 0 0 0;
   
 }
 section .wrapper h3 {
-  margin-top: 35px;
+  margin-top: 10px;
 }
 section .wrapper p {
-  margin-top: 35px;
-  word-spacing: 7px;
+  margin-top: 10px;
+  line-height: 30px;
   
 }
 section .container {
-  margin: 175px 0 0 30px;
+  margin: 77px 0 0 0;
   
 }
 section .container h3 {
-  margin-top: 35px;
+  margin-top: 10px;
 }
 section .container p {
-  margin-top: 25px;
-  word-spacing: 7px;
-  line-height: 35px;
+  margin-top: 10px;
+  
+  line-height: 30px;
 }
 section {
   background-color: lightgrey;
@@ -109,54 +118,58 @@ section {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 587px;
   flex-wrap: wrap;
-  width: 67%;
-  font-size: 1.3rem;
+  width: 72%;
+  
   font-family: '나눔고딕','맑은 고딕',sans-serif;
 }
 section figcaption {
   text-align: right;
   font-style: italic;
-  padding-right: 4px;
+  padding-right: 10px;
   font-size: 1rem;
+  color: #ddb;
 }
 .bigbox {
   display: flex;
   
 }
 aside{
+  background-color: white;
   border: 1px red solid;
-  width: 33%;
-  height: 80vh;
+  width: 28%;
+  height: 587px;
   border-top: none;
   border-bottom: none;
   font-family: '나눔고딕','맑은 고딕',sans-serif;
+  border-right: none;
 }
 aside h2 {
   color: red;
-  font-size: 2rem;
-  padding: 20px;
+  font-size: 1.7rem;
+  padding: 12px 20px;
 }
 
 .box {
   border: 1px red solid;
   border-left: none;
   border-top: none;
+  border-right: none;
   border-collapse: collapse;
   margin: 0;
-  padding:22px 20px 22px;
+  padding:18px 20px ;
  
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .box5 {
-  padding: 0 20px 0;
-  font-size: 1.3rem;
+  padding: 10px 20px 0;
+  font-size: 1.2rem;
 }
 footer {
   
   background-color: blueviolet;
-  padding: 9px 16px 9px;
+  padding: 11px 16px 11px;
   font-family: '나눔고딕','맑은 고딕',sans-serif;
 }
