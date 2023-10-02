@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+main .aboutus {
+  text-align: center; line-height: 1.4; 
+}
+main .aboutus h2 {
+  margin:5px; font-family: 'Montserrat', sans-serif;
+}
+main .aboutus h2:first-of-type {
+  margin-top: 30px; font-size: 1.25rem; height: 40px; position: relative;
+}
+
+main .aboutus ul{
+  width: 95%;
+  display: flex;
+  margin: 10px auto;
+ 
+}
+main .aboutus ul li  {  display: flex; justify-content: center;}
+main .aboutus ul li img { width: 80%; }
+main .aboutus h2:last-of-type {
+  width: 80%;
+  margin: 10px auto; 
+}
+main .aboutus p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 10px;
+}
+main .aboutus p:first-of-type { width: 90%; margin: 10px auto; margin-bottom: 25px;}
+main .aboutus p:nth-of-type(2)  {
+  font-size: 18px;
+  width: 80%;
+  margin:10px auto;
+}
+main .aboutus p:last-of-type {width: 80%; margin: 20px auto; margin-bottom: 45px;}
+main .profile {
+  background: url(./images/companyprofile_Bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  
+}
+main .profile h2 {
+ padding-top: 20px;
+ margin-bottom: 20px;
+ font-weight: 400;
+ font-size: 20px;
+}
+main .profile p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+main .profile button {
+  width: 86px; height: 40px;
+  line-height: 40px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #232323;
+  color: #Fff;
+  font-size: 500;
+  margin-bottom: 35px;
+}
+main .intro {
+padding-top: 50px;
+}
+main .intro h2:first-child {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+main .intro p:nth-child(2) {
+  text-align: center;
+  width: 92%;
+  margin: 15px auto;
+  font-size: 14px;
+}
+main .intro .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+main .intro .list li h2 {
+  margin: 0;
+  font-weight: 500;
+  padding: 5px 10px 0;
+
+}
+main .intro .list li img {
+  padding-left: 10px;
+}
+main .intro .list li p {
+  width: 92%;
+  margin: 10px auto;
+}
+main .user {
+  margin-top: 20px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .user h2{
+padding-top: 5px;
+color: #Fff;
+font-size: 20px;
+}
+main .user p {
+  padding-top: 5px;
+  font-size: 14px;
+}
+main .user ul {
+  width: 50%;
+  margin: 35px 0;
+  text-align: center;
+}
+main .item {
+  padding-top: 50px;
+  text-align: center;
+}
+main .item h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+main .item p {
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 92%;
+  margin: 30px auto;
+}
+main .item menu li a {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+main .item menu li:nth-child(1) a{
+  font-weight: 700;
+}
+main .item ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+main .item ul li {
+  width: 45%;
+  margin: 0 auto;
+}
+main .item ul li img {
+  width: 90%;
+  margin: 10px 0;
+}
+main .client {
+  margin-top: 30px;
+  text-align: center;
+}
+main .client h2{ 
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+main .client p {
+  padding-top: 10px;
+}
+main .client ul {
+  display:flex;
+  margin: 15px 0;
+}
+main .client ul li {
+  width: 50%;
+
+}
+main .client ul li img {
+  width: 90%;
+}
+main .contact {
+  background-color: #1c1c1c;
+  padding: 40px 0 40px;
+  text-align: center;
+}
+main .contact h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0 10px;
+  font-size: 15px;
+}
+
+main .contact .address ,main .contact .contact1 ,main .contact .workinghour {
+  width: 90%;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 40px 0 40px;
+}
+main .contact address,main .contact p {
+  width: 60%;
+  margin: 15px auto;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main .contact .contact2{
+  color: #Fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+main .question {
+  font-family: 'Roboto', sans-serif;
+}
+main .question h2{
+  margin: 25px 0 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+main .question .container ,main .question p:nth-child(3){
+  width: 90%;
+  margin: 20px auto;
+  font-size: 14px;
+}
+main .question .container {
+  border-bottom: 1px solid #666666;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  
+}
+
+main .question form {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .question form input {
+  border: none;
+  background-color: #f9f9f9;
+  padding:10px 15px 15px;
+  outline: 0;
+}
+main .question form input[type=text] {
+  width: 40%;
+  margin:10px auto;
+  outline: 0;
+  
+}
+main .question form input[type=email] {
+  width: 89%;
+  margin: 10px auto;
+  
+}
+
+main .question form input[type=message] {
+  width: 89%;
+  margin: 10px auto;
+  height: 5vh;
+  
+  padding-bottom: 180px;
+}
+main .question form button {
+  width: 89%;
+  margin: 10px auto;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #Fff;
+  font-weight: 700;
+  border: none;
+  outline: 0;
+  background-color:#232323;
+}
