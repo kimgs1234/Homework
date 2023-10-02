@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif; */
 footer {
   background-color: #1C1C1C;
   box-sizing: border-box;
-  height: 30vh;
+  height: 48vh;
 }
 footer ul {
  
@@ -27,6 +27,11 @@ footer .wrapper {
   margin: 0 auto; 
   font-size: 14px;
   font-family: 'Roboto', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30vh;
+  justify-content: space-evenly;
 } 
 footer .wrapper p:nth-child(1){
   position: relative;

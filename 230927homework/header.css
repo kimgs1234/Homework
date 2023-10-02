@@ -6,20 +6,24 @@ font-family: 'Roboto', sans-serif; */
 
 
 body {
-  line-height: 1.4;
+  line-height: 1.6;
 }
 p {
   color: #666666;
 }
 header {
-  background-color: lightgray;
-  background: url(./images/main_visual2.jpg) no-repeat 
+
+  background: url(./images/main_visual2.jpg) no-repeat #000 
   ;
   background-size: cover;
-  height: 50vh;
+  height: 500px;
   position: relative;
   text-align: center;
-  
+
+}
+header .bigbox {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 500px;
 }
 h1,h2 {
   margin: 0;
@@ -29,27 +33,39 @@ header .gnb {
   background-color: transparent;
   position: absolute;
   top: 15px; right: 10px;
+  
 }
-header h1 {
+header .gnb img {
+  width: 22px; height: 22px;
+}
+header h1 img{
   position: absolute;
   top: 15px; left: 5px;
+  width: 130px; height: 25px;
+  background-color: transparent;
   
 }
 header .empower  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 48vh;
+  display: block;
+  margin: 10px auto;
+  width: 95%;
   color: #FFF;
-  font-size: 2.3rem;
+  font-size: 35px;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.1;
+  position: relative;
+  top: 33%;
+ 
 }
 header p {
- display: flex;
- justify-content: center;
+  line-height: 1.2;
+ width: 80%;
+ display: block;
+ margin: auto;
  color: #EDEDED;
  font-weight: 500;
- font-size: 1.15rem;
+ font-size: 18px;
  position: relative;
- top: 20vh;
+ top: 34%;
+ margin-bottom: 15px;
 }
