@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+}
+p {
+  color: #666666;
+}
+header {
+  
+  background: url(./images/main_visual2.jpg) no-repeat #000
+  ;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+
+}
+header .bigbox {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  margin: 0; padding: 0;
+}
+h1,h2 {
+  margin: 0; padding: 0;
+}
+header menu {
+  padding: 0;
+  display: flex;
+  width: 500px;
+  margin: 10px auto;
+
+}
+header menu li {
+  padding: 20px 30px;
+}
+header menu li a {
+  color: #Fff;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 12px;
+
+}
+header h1 img{
+  position: absolute;
+  top: 20px; left: 45px;
+  width: 130px; height: 25px;
+  
+}
+
+header .empower  {
+  display: block;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  height: 48vh;
+  color: #FFF;
+  font-size: 130px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  line-height: 1;
+  position: relative;
+  top: 25%;
+}
+header p {
+  font-family: 'Roboto', sans-serif; 
+ display: block;
+ width: 700px;
+ justify-content: center;
+ color: #EDEDED;
+ font-weight: 500;
+ font-size: 25px;
+ margin: 0 auto;
+ margin-bottom: 10px;
+ position: relative;
+ top: 24%;
+ line-height: 1.2;
+ font-weight: 300;
+}

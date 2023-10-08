@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+footer {
+  background-color: #1C1C1C;
+  
+}
+footer ul {
+ 
+  display: flex;
+  padding-top: 50px;
+  width: 8%;
+  margin:0 auto 10px;
+  justify-content: space-between;
+}
+footer ul li img{
+width: 25px; height: 25px;
+margin-right:10px;
+display: block;
+}
+footer .wrapper {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto; 
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
+  justify-content: space-evenly;
+} 
+footer .wrapper p:nth-child(1){
+ 
+  margin-top: 15px;
+}
+footer .wrapper address:nth-child(2){
+  margin-top: 5px;
+  color: #666666;
+}
+footer .wrapper address:nth-child(3){
+ margin-top: 5px;
+  color: #666666;
+}
+footer .wrapper p:nth-child(4){
+ margin: 25px 0;
+}
+span {
+  color: #b7b7b7;
+}

@@ -1,0 +1,463 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+main .aboutus  {
+  text-align: center;
+  padding-top: 110px;
+  position: relative;
+  height: 800px;
+  box-sizing: border-box;
+  margin-bottom: 130px;
+}
+main .aboutus h2 {
+  color: #232323; font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+
+main .aboutus .about::after {
+  content: "";
+  display: block;
+  width: 100px; height: 2px;
+  margin: 20px auto;
+  width: 100px; background-color: #f7D23D;
+}
+main .aboutus p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  line-height: 1.6;
+}
+main .aboutus p:first-of-type { width: 33%; margin: 0 auto; }
+main .aboutus .manytext p:nth-child(2)  {
+  font-size: 20px;
+  width: 85%;
+  margin:10px auto;
+  text-align: left;
+}
+main .aboutus .manytext p:last-of-type {width: 85%; margin: 20px auto; margin-bottom: 45px; text-align: left;}
+main .aboutus ul {
+  width: 600px; display: flex;
+  
+}
+main .aboutus ul li {
+  margin: 15px;
+}
+main .aboutus ul li img {
+  width: 97%;height: 390px;
+}
+main .aboutus .manytext h2 {
+  width: 85%;
+  color: #232323;
+  text-align: left;
+  padding: 0;
+  font-weight: 700;
+  margin: 10px auto; 
+  font-size: 38px;
+}
+main .aboutus .manytext {
+
+width: 30%;
+
+}
+main .aboutus .imgtextbox {
+  display: flex;
+ justify-content: center;
+ margin-top: 100px; 
+}
+main .profile {
+  margin-top: 70px;
+  background: url(./images/companyprofile_Bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  
+}
+main .profile h2 {
+  padding-top: 75px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #666666;
+ }
+ main .profile p {
+   font-weight: 300;
+   font-size: 14px;
+   margin-bottom: 25px;
+ }
+ main .profile button {
+   width: 84px; height: 40px;
+   line-height: 40px;
+   border: 2px solid #232323;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #232323;
+   color: #Fff;
+   font-size: 500;
+   margin-bottom: 80px;
+   transition: 0.5s;
+ }
+ main .profile button:hover {background-color: transparent;  color: #232323;}
+ main .intro {padding-top: 100px;} 
+ main .intro .our {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+main .intro .our::after {
+  content: "";
+  display: block;
+  width: 100px; height: 2px;
+  margin: 15px auto;
+  width: 100px; background-color: #f7D23D;
+}
+main .intro p:nth-child(2) {
+  text-align: center;
+  width: 36%;
+  margin: 25px auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+main  .intro p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+main .intro .row {
+  width: 62%;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .intro .row ul {
+  width: 30%;
+  margin-right: 40px;
+  margin: 0 auto;
+}
+main .intro .row ul li p {
+  width: 95%;
+  margin-top: 10px;
+}
+main .intro .row .title {
+  display: flex;
+  margin-top: 18px;
+}
+main .intro .row .title img{
+width: 48px; height: 48px;
+}
+main .intro .row .title h2 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #232323;
+  font-weight: 500;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 20px;
+  
+}
+main .user {
+  margin-top: 100px;
+  background-color: #1c1c1c;
+  padding: 60px 0;
+  
+}
+main .user .userbox {
+
+display: flex;
+justify-content: space-between;
+width: 55%;
+margin: auto;
+
+}
+main .user h2{
+  text-align: left;
+  color: #Fff;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  main .user .txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #666666;
+  }
+  main .user ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    margin: 35px 0;
+    text-align: center;
+    line-height: 1;
+  }
+  main .user ul img {
+    width: 40px; height: 40px;
+    padding-right: 35px;
+  }
+  main .item {
+    padding-top: 110px;
+    text-align: center;
+  }
+  main .item h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+  }
+  main .item h2::after {
+    content: "";
+    display: block;
+    width: 100px; height: 2px;
+    margin: 15px auto;
+    width: 100px; background-color: #f7D23D;
+  }
+  main .item p {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+    margin: 35px auto;
+  }
+  main .item menu {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  main .item menu li a {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+main .item menu li:nth-child(1) a{
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  
+}
+main .item menu li:nth-child(n+2) a {
+  color: #6f6f6f;
+  font-weight: 500;
+}
+main .item menu li:nth-child(1) a:hover {
+  color: #6f6f6f;
+  border-bottom: 1px #6f6f6f solid;
+}
+main .item menu li:nth-child(n+2) a:hover {
+  color: #000000;
+  border-bottom: 1px #000 solid;
+}
+main .item ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+main .item ul li {
+  width: 25%;
+  margin: 6px auto;
+  
+}
+main .item ul li img {
+  width: 98%; height: 360px;
+}
+main .client {
+  margin-top: 50px;
+  text-align: center;
+}
+main .client h2{ 
+  padding-top: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+main .client h2::after {
+  content: "";
+  display: block;
+  width: 100px; height: 2px;
+  margin: 15px auto;
+  width: 100px; background-color: #f7D23D;
+}
+main .client p {
+  padding-top: 20px;
+}
+main .client ul {
+  width: 60%;
+  display:flex;
+  justify-content: space-between;
+  margin: 90px auto 70px;
+}
+main .contact {
+  
+  height: 780px;
+  text-align: center;
+  line-height: 1.6;
+}
+main .contact .contact2{
+  padding-top: 120px;
+  color: #Fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+main .contact .contact2::after {
+  content: "";
+  display: block;
+  width: 100px; height: 2px;
+  margin: 15px auto;
+  width: 100px; background-color: #f7D23D;
+}
+main .contact .contact_txt {
+  width: 30%;
+  margin: 30px auto;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+main .contact .bigcontainer {
+  background-color: #1c1c1c;
+  height: 550px;
+}
+main .contact .overall {
+
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+main .contact .address ,main .contact .contact1 ,main .contact .workinghour {
+  width: 350px; height: 350px;
+  background-color: #fff;
+  margin: 15px;
+  box-shadow:
+  0.2px 0.2px 0.2px rgba(0, 0, 0, 0.013),
+  0.6px 0.6px 0.6px rgba(0, 0, 0, 0.015),
+  1.1px 1.1px 1.1px rgba(0, 0, 0, 0.017),
+  2px 2px 2px rgba(0, 0, 0, 0.021),
+  3.8px 3.8px 3.8px rgba(0, 0, 0, 0.03),
+  9px 9px 9px rgba(0, 0, 0, 0.07);
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+main .contact ul li img {
+  width: 40px; height: 40px;
+}
+main .contact h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0 10px;
+  font-size: 15px;
+}
+
+main .contact ul li .realaddress {
+  width: 70%;
+  margin:25px auto;
+}
+main .contact ul li address {
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 25px;
+}
+main .question {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin:100px 0 120px;
+  
+}
+main .question .question_box {
+  width: 30%; 
+  height: 70vh;
+}
+main .question .question_box h2{
+  margin: 25px 0  10px 30px;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+main .question .question_box .container ,main .question .question_box p:nth-child(3){
+  width: 90%;
+  margin: 10px auto;
+  font-size: 14px;
+  padding: 20px 0;
+  line-height: 1.7;
+}
+main .question .question_box .container {
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  
+}
+main .question .question_box .container a{
+color: #626262;
+}
+main .question .input_box {
+  width: 30%;
+  padding-left: 60px;
+}
+main .question .input_box h2{
+  margin: 25px 0 10px 30px ;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+main .question .input_box form {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .question .input_box form input {
+  border: none;
+  background-color: #f9f9f9;
+  padding:20px 15px 20px;
+  outline: 0;
+}
+main .question .input_box .textdiv {
+  margin: 0 auto;
+  width: 95%;
+ display: flex; 
+ justify-content: space-between;
+}
+main .question .input_box form input[type=text] {
+  width: 40%;
+  margin:10px auto;
+  
+  
+}
+main .question .input_box form input[type=email] {
+  width: 85%;
+  margin: 10px auto;
+  
+}
+
+main .question .input_box form input[type=search] {
+  width: 90%;
+  margin: 15px auto;
+  height: 30vh;
+  padding-bottom: 220px;
+  
+}
+main .question .input_box form button {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #Fff;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background-color:#232323;
+  transition: 0.5s;
+}
+main .question .input_box form button:hover {
+  background-color:#fff ;
+  border: 2px #232323 solid;
+  color: #232323 ;
+}
