@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@media (width>= 768px) {
+  .global-nav li {
+    padding: 0.5vw 15px;
+    width: 50%;
+    box-sizing: border-box;
+    border-right: 1px solid #fff;
+  }
+  .global-nav .menu {
+    text-indent: -9999px;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+  }
+  .global-nav li:nth-child(even) {
+    border-right: none;
+  }
+  .global-nav li:nth-child(5) {
+    border-bottom: 2px solid #fff;
+  }
+}

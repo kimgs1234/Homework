@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media (width>=1200px) {
+  body {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .global-nav {
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+  }
+  .global-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border: none;
+    border-left: 1px solid #Fff;
+  }
+  .global-nav li:nth-child(5) {
+    border: none;
+    border-left: 1px solid #Fff;
+    border-right: 1px solid #Fff;
+  }
+  .global-nav .menu {
+    display: none;
+  }
+  .global-nav li:hover {
+    background-color: rgb(127, 255, 212,0.5);
+  }
+}

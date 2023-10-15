@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+  margin: 0; font-size: 1.4rem;  
+  background: url(./배경.jpg) no-repeat fixed 50%/ cover;
+  text-transform: uppercase;
+}
+.global-nav {
+  /* display: flex; */
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0; margin: 0;
+}
+.global-nav li {
+  
+  border-bottom: 1px solid #fff;
+  list-style: none;
+  padding: 0.6vw 15px;
+  width: 100%;
+  
+}
+.global-nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+.global-nav .menu {
+  background-color: rgb(138, 43, 226,0.5);
+}
+.global-nav .menu::after {
+  content: "";
+  background: url(./ellipsis.svg) no-repeat 50% /contain;
+  position: absolute;
+  width: 25px; height: 25px;
+  right: 0;
+  top: 185px;
+}
+
+

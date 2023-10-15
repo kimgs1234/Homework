@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+footer {
+  background-color: #f8f9fa;
+}
+footer .footer-intro {
+  padding-top: 80px;
+  margin: 0;
+  font-family:"SpoqaHansan" , sans-serif ;
+}
+footer .footer-intro .footer-logo {
+  padding:0px 12px 40px ;
+}
+footer .footer-intro .contact h4 {
+ 
+  margin: 0 15px 25px ;
+}
+footer .footer-intro .contact address {
+line-height: 1.5;
+font-weight: 300;
+ margin: 3px 15px ;
+}
+footer .footer-intro .ft-location h4 {
+  margin: 50px 15px 25px;
+}
+footer .footer-intro .ft-location address {
+  line-height: 1.5;
+font-weight: 300;
+ margin: 3px 15px ;
+}
+footer .footer-intro .social h4 {
+  margin: 50px 15px 25px;
+}
+footer .footer-intro .social .social-icon {
+  width: 30vw;
+  margin: 3px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-copyright {
+  margin-top: 80px;
+  padding: 40px 0 ;
+  background-color: #e9ecef;
+  font-size: 14px;
+  font-family:"SpoqaHansan" , sans-serif ;
+  font-weight: 300;
+  text-align: center;
+ 
+}
+footer .footer-copyright p:first-child {
+  margin-bottom: 20px;
+}
+@media (width>=1200px) {
+  footer .footer-intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .footer-intro .social h4 , footer .footer-intro .ft-location h4  {
+    margin: 0px 15px 25px;
+  }
+  footer .footer-intro .social .social-icon {
+    width: 15vw;
+  }
+
+}
